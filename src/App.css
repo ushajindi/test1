@@ -1,39 +1,64 @@
 @import '~antd/dist/antd.css';
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sider_inner{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-bottom: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+.sider_inner div  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #666;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sider_inner div a {
+  margin-top: 10px;
+  color: #999;
+}
+.content_inner{
+  display: flex;
+  margin-left: 50px;
+}
+.ant-layout-sider-light{
+  background: #f0f2f5;
+}
+.header_login_inner{
+  color:white;
+}
+.header_login_inner a {
+  margin-left: 10px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background: #666666;
+}
+.header div {
+  margin: 0 20px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.sider_search{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+  border-bottom: #999999 1px solid;
+  padding-bottom: 10px;
 }
